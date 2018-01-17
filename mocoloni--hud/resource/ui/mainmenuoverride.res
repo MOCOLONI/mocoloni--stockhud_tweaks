@@ -1744,21 +1744,6 @@
 						"item"		"Taunt: Runner's Rhythm"
 						"show_market"	"0"
 					}
-   
-   
-			 
-		
-   
-   
-   
-			
-		
-   
-   
-   
-		   
-		
-   
 				}
 			}
 
@@ -2460,52 +2445,48 @@
 			"scaleImage"	"1"
 		}				
 	}
-	"ConsoleButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ConsoleButton"
-		"xpos"			"c-183+273"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"26"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"HudFontSmall"
-		"textAlignment"	"north-west"
-		"textinsetx"	"18"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine toggleconsole"
-		"use_proportional_insets"	"1"
-		"navUp"			"VRModeButton"
-		"navLeft"		"QuitButton"
-		"navRight"		"NewUserForumsButton"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"PaintBackgroundType" "0"
-		"border_default"	"MainMenuSubButtonBorder"
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_options"
-			"scaleImage"	"1"
-		}
-	}
+"openconsole"
+{
+"controlname" "ceximagebutton"
+"fieldname" "openconsole"
+"xpos" "c-183+273"
+"ypos" "437"
+"zpos" "2"
+"wide" "26"
+"tall" "25"
+"autoresize" "0"
+"pincorner" "3"
+"visible" "1"
+"enabled" "1"
+"tabposition" "0"
+"labeltext" ">"
+"font" "hudfontsmallestbold"
+"textalignment" "north-west"
+"textinsetx" "18"
+"dulltext" "0"
+"brighttext" "0"
+"default" "1"
+"command" "engine toggleconsole"
+"use_proportional_insets" "1"
+"sound_depressed" "ui/buttonclick.wav"
+"sound_released" "ui/buttonclickrelease.wav"
+"border_default" "mainmenusubbuttonborder"
+"image_drawcolor" "235 226 202 255"
+"subimage"
+{
+"controlname" "imagepanel"
+"fieldname" "subimage"
+"xpos" "6"
+"ypos" "6"
+"zpos" "1"
+"wide" "14"
+"tall" "14"
+"visible" "1"
+"enabled" "1"
+"image" "glyph_options"
+"scaleimage" "1"
+}
+}
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
