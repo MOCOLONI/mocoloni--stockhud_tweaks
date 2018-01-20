@@ -505,8 +505,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"32 32 32 185"		[$WIN32] //46 43 42
-		"LocalBackgroundColor"	"224 216 200 170"	[$WIN32] //229 150 75 175
+		"BaseBackgroundColor"	"32 32 32 200"		[$WIN32]
+		"LocalBackgroundColor"	"224 216 200 170"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
