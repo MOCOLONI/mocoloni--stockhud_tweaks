@@ -1957,12 +1957,10 @@
 		"wide"			"26"
 		"tall"			"26"
 		"visible"		"1"
-
-		"navLeft"		"ResumeGameButton"
+		"navLeft"		"RequestCoachButton"
 		"navRight"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
+		"navDown"		"GeneralStoreButton"
 		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1985,18 +1983,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2024,12 +2018,10 @@
 		"wide"			"26"
 		"tall"			"26"
 		"visible"		"1"
-
 		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
+		"navDown"		"GeneralStoreButton"
 		"navRight"		"MutePlayersButton"
 		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2052,18 +2044,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2090,12 +2078,10 @@
 		"wide"			"26"
 		"tall"			"26"
 		"visible"		"1"
-
 		"navLeft"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
+		"navDown"		"consolebutton"
 		"navRight"		"RequestCoachButton"
 		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2118,18 +2104,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2157,12 +2139,10 @@
 		"wide"			"26"
 		"tall"			"26"
 		"visible"		"1"
-
 		"navLeft"		"MutePlayersButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navDown"		"QuickplayChangeButton"
+		"navRight"		"ReportPlayerButton"
+		"navDown"		"consolebutton"
 		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2185,18 +2165,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2268,10 +2244,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
-			
 		"paintbackground"	"1"
-				
 		"image_drawcolor"	"235 226 202 255"
+		"navup" "ReportPlayerButton"
+		"navleft" "ReportBugButton"
+		"navright" "GeneralStoreButton"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2327,13 +2304,13 @@
 		"labeltext" "#MMenu_Shop"
 		"command" "engine open_store"
 		"proportionaltoparent"	"1"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
 		"paintbackground"	"1"
-				
 		"image_drawcolor"	"235 226 202 255"
+		"navup" "ReportPlayerButton"
+		"navleft" "CharacterSetupButton"
+		"navright" "consolebutton"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2349,12 +2326,56 @@
 			"image" "glyph_store"
 		}		
 	}
-
+"consolebutton"
+{
+"controlname" "ceximagebutton"
+"fieldname" "consolebutton"
+"xpos" "c-65"
+"ypos" "rs1-18"
+"wide" "100"
+"tall" "26"
+"autoresize" "0"
+"pincorner" "3"
+"visible" "1"
+"enabled" "1"
+"tabposition" "0"
+"textinsetx" "25"
+"use_proportional_insets" "1"
+"font" "hudfontsmallbold"
+"textalignment" "west"
+"dulltext" "0"
+"brighttext" "0"
+"default" "1"
+"labeltext" "Console"
+"command" "engine toggleconsole"
+"proportionaltoparent" "1"
+"sound_depressed" "ui/buttonclick.wav"
+"sound_released" "ui/buttonclickrelease.wav"
+"paintbackground" "1"
+"image_drawcolor" "235 226 202 255"
+"navup" "RequestCoachButton"
+"navleft" "GeneralStoreButton"
+"navright" "SettingsButton"
+"subimage"
+{
+"controlname" "imagepanel"
+"fieldname" "subimage"
+"xpos" "6"
+"ypos" "6"
+"zpos" "1"
+"wide" "14"
+"tall" "14"
+"visible" "1"
+"enabled" "1"
+"scaleimage" "1"
+"image" "glyph_options"
+}
+}
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-233+273"
+		"xpos"			"c-208+273"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"30"
@@ -2373,14 +2394,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"ReportBugButton"
+		"navLeft"		"consolebutton"
 		"navRight"		"TF2SettingsButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2402,7 +2419,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-208+273"
+		"xpos"			"c-183+273"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"26"
@@ -2420,14 +2437,11 @@
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
-
-		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
-
+		"navright" "NewUserForumsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2445,48 +2459,7 @@
 			"scaleImage"	"1"
 		}				
 	}
-"openconsole"
-{
-"controlname" "ceximagebutton"
-"fieldname" "openconsole"
-"xpos" "c-183+273"
-"ypos" "437"
-"zpos" "2"
-"wide" "26"
-"tall" "25"
-"autoresize" "0"
-"pincorner" "3"
-"visible" "1"
-"enabled" "1"
-"tabposition" "0"
-"labeltext" ">"
-"font" "hudfontsmallestbold"
-"textalignment" "north-west"
-"textinsetx" "18"
-"dulltext" "0"
-"brighttext" "0"
-"default" "1"
-"command" "engine toggleconsole"
-"use_proportional_insets" "1"
-"sound_depressed" "ui/buttonclick.wav"
-"sound_released" "ui/buttonclickrelease.wav"
-"border_default" "mainmenusubbuttonborder"
-"image_drawcolor" "235 226 202 255"
-"subimage"
-{
-"controlname" "imagepanel"
-"fieldname" "subimage"
-"xpos" "6"
-"ypos" "6"
-"zpos" "1"
-"wide" "14"
-"tall" "14"
-"visible" "1"
-"enabled" "1"
-"image" "glyph_options"
-"scaleimage" "1"
-}
-}
+	
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2508,16 +2481,12 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"QuitButton"
+		"navLeft"		"TF2SettingsButton"
 		"navRight"		"AchievementsButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"PaintBackgroundType" "0"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2556,15 +2525,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
-
-		"navUp"			"VRModeButton"
 		"navLeft"		"NewUserForumsButton"
 		"navRight"		"CommentaryButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2603,15 +2568,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
-
-		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
 		"navRight"		"CoachPlayersButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2650,15 +2611,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
-
-		"navUp"			"VRModeButton"
 		"navLeft"		"CommentaryButton"
-		"navRight"		"ReportBugButton"
-
+		"navRight"		"WorkshopButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2697,15 +2654,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine OpenSteamWorkshopDialog"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
+		"navLeft"		"CoachPlayersButton"
+		"navRight"		"ReplayButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2744,15 +2697,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine replay_reloadbrowser"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
+		"navLeft"		"WorkshopButton"
+		"navRight"		"ReportBugButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2791,14 +2740,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine bug"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CoachPlayersButton"
-		"navRight"		"SettingsButton"
-
+		"navLeft"		"ReplayButton"
+		"navRight"		"CharacterSetupButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{

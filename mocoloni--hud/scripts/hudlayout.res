@@ -490,18 +490,15 @@
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
-
 		"MaxDeathNotices" "15"
 		"IconScale"	  ".35"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "-1"
+		"LineSpacing"	  "-.5"
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"
-		
 		"TextFont"		"TextTooltipFont"
-		
-		"TeamBlue"		"0 120 192 225"
-		"TeamRed"		"192 40 0 225"
+		"TeamBlue"		"0 120 216 255"
+		"TeamRed"		"216 40 0 255"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
