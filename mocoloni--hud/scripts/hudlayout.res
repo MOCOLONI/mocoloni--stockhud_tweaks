@@ -490,19 +490,23 @@
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
+
 		"MaxDeathNotices" "15"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "-.5"
 		"CornerRadius"	  "2"
-		"RightJustify"	  "1"
+		"RightJustify"	  "1"	// If 1, draw notices from the right
+		
 		"TextFont"		"HudFontSmallest"
-		"TeamBlue"		"0 120 216 255"
-		"TeamRed"		"216 40 0 255"
+		
+		"TeamBlue"		"0 120 224 255"
+		"TeamRed"		"224 30 0 255"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
+
 		"BaseBackgroundColor"	"32 32 32 200"		[$WIN32]
-		"LocalBackgroundColor"	"224 216 200 175"	[$WIN32]
+		"LocalBackgroundColor"	"224 215 197 175"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -741,7 +745,9 @@
 		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "400"
+
 		"item_wide"	"135"
+		
 		"show_avatar"		"1"
 		"show_friend" "1"
 		"show_dead_icon"	"1"
@@ -749,13 +755,18 @@
 		"dead_ypos"			"2"
 		"dead_wide"			"12"
 		"dead_tall"			"12"
-		"show_voice_icon"	"0"
 		"avatar_xpos" "4"
 		"avatar_ypos" "0"
 		"avatar_wide" "16"
 		"avatar_tall" "16"
+		"show_voice_icon"	"0"
+		"icon_ypos"			"0"
+		"icon_xpos"			"15"
+		"icon_tall"			"16"
+		"icon_wide"			"16"
+		
 		"text_xpos"			"33"
-		"fade_in_time" ".07"
+		"fade_in_time" ".06"
 		"fade_out_time" ".5"
 	}
 
@@ -1499,3 +1510,4 @@
 		"alpha"					"100"
 	}
 }
+

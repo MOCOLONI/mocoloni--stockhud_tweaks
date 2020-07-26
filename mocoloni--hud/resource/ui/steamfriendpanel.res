@@ -27,8 +27,10 @@
 		"stay_armed_on_click"	"1"
 		"roundedcorners"	"0"
 		"paintbackground"	"1"
+
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"	"178 82 22 5"
+
 		"border_default"	"NoBorder"
 		"border_armed"		"FriendHighlightBorder"
 	}

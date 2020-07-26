@@ -138,10 +138,13 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
 		"defaultBgColor_override"	"235 226 202 2"
 		"armedBgColor_override"	"178 82 22 20"
+
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"FriendHighlightBorderThick"
 	}
@@ -159,6 +162,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"alpha"			"200"
+
 		"radius"		"26"
 		"velocity"		"60"
 		"fgcolor_override"	"Orange"

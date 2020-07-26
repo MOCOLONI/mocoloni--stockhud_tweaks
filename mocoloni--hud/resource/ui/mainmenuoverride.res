@@ -1400,7 +1400,9 @@
 		"wide"			"260"
 		"tall"			"150"
 		"visible"		"1"
+
 		"border"		"MainMenuBGBorder"
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1720,9 +1722,11 @@
 		"wide"			"30"
 		"tall"			"25"
 		"visible"		"1"
+
 		"navLeft"		"GeneralStoreButton"
 		"navRight"		"CallVoteButton"
 		"navToRelay"	"SubButton"
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1746,13 +1750,18 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"5"
+			
 			"paintbackground"	"1"
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+
 			"proportionaltoparent"	"1"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1781,9 +1790,11 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+
 		"navLeft"		"ReportPlayerButton"
 		"navRight"		"MutePlayersButton"
 		"navToRelay"	"SubButton"
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1806,14 +1817,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1841,9 +1856,11 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+
 		"navLeft"		"CallVoteButton"
 		"navRight"		"RequestCoachButton"
 		"navToRelay"	"SubButton"
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1866,14 +1883,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1902,9 +1923,11 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+
 		"navLeft"		"MutePlayersButton"
 		"navRight"		"SettingsButton"
 		"navToRelay"	"SubButton"
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1927,13 +1950,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"paintbackground"	"1"
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2003,12 +2031,13 @@
 		"default"		"1"
 		"command"		"engine open_charinfo"
 		"labeltext"		"#MMenu_CharacterSetup"
-		"navLeft" "ReportBugButton"
-		"navRight" "GeneralStoreButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
+		"navLeft" "ReportBugButton"
+		"navRight" "GeneralStoreButton"
 		"paintbackground"	"1"
+				
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2069,7 +2098,9 @@
 		"navRight" "ReportPlayerButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+			
 		"paintbackground"	"1"
+				
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2110,10 +2141,13 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
+
 		"navLeft"		"RequestCoachButton"
 		"navRight"		"TF2SettingsButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2153,11 +2187,13 @@
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
+
 		"navLeft"		"SettingsButton"
 		"navRight" "NewUserForumsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2197,12 +2233,15 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
+
 		"navLeft"		"TF2SettingsButton"
 		"navRight"		"AchievementsButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"PaintBackgroundType" "0"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2241,11 +2280,14 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
+
 		"navLeft"		"NewUserForumsButton"
 		"navRight"		"CommentaryButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2284,11 +2326,14 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+
 		"navLeft"		"AchievementsButton"
 		"navRight"		"CoachPlayersButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2327,11 +2372,14 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
+
 		"navLeft"		"CommentaryButton"
 		"navRight"		"WorkshopButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2370,11 +2418,14 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine OpenSteamWorkshopDialog"
+
 		"navLeft"		"CoachPlayersButton"
 		"navRight"		"ReplayButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2413,11 +2464,14 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine replay_reloadbrowser"
+
 		"navLeft"		"WorkshopButton"
 		"navRight"		"ReportBugButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2456,10 +2510,13 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine bug"
+
 		"navLeft"		"ReplayButton"
 		"navRight"		"CharacterSetupButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
