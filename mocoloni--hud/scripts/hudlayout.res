@@ -755,19 +755,18 @@
 		"dead_ypos"			"2"
 		"dead_wide"			"12"
 		"dead_tall"			"12"
+		"avatar_tall" "16"
+		"avatar_wide" "16"
 		"avatar_xpos" "4"
 		"avatar_ypos" "0"
-		"avatar_wide" "16"
-		"avatar_tall" "16"
 		"show_voice_icon"	"0"
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
-		
-		"text_xpos"			"33"
 		"fade_in_time" ".06"
 		"fade_out_time" ".5"
+		"text_xpos"			"33"
 	}
 
 	HudHintDisplay
